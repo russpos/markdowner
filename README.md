@@ -1,6 +1,14 @@
 # markdowner
 A simple `markdown` to HTML server.  Comes with the bin file `mdview`.
 
+## Installation
+
+To install, simply use `npm`:
+
+    npm install -g markdowner
+
+This will install the libs, as well as the bin script `mdview`.
+
 ## Usage
 
 To use `mdview`, simply point it to the path of the file you are working on:
