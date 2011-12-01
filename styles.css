@@ -1,19 +1,60 @@
 body {
   font-family: helvetica, arial, freesans, clean, sans-serif;
-  font-size: 13px;
+  font-size: 13.34px;
   color: black;
+}
+body * {
+  line-height: 1.5em;
+}
+p {
+  line-height: 1.5em;
 }
 
 #contents {
   background-color: rgb(248,248,248);
   border: 1px solid rgb(233, 233, 233);
-  width: 800px;
+  width: 900px;
   padding: 12px;
   margin: auto;
 }
 
-pre {
-  background-color: rgb(238, 238, 238);
-  border: 2px solid rgb(233, 233, 233);
-  padding: 8px;
+h2 {
+  font-size: 150%;
+  margin-top: 1.5em;
+  border-top: 4px solid #e0e0e0;
+  padding-top: .5em;
 }
+
+ul li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+code {
+  font: 12px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  background-color: #f8f8ff;
+  color: #444;
+  padding: 0 .2em;
+  border: 1px solid #dedede;
+  border-image: initial;
+}
+pre {
+  margin: 1em 0 !important;
+  font-size: 12px !important;
+  background-color: #f8f8ff !important;
+  border: 1px solid #dedede !important;
+  padding: .5em !important;
+  line-height: 1.5em !important;
+  color: #444 !important;
+  overflow: auto !important;
+  border-image: initial;
+}
+
+pre code {
+  padding: 0 !important;
+  font-size: 12px !important;
+  background-color: #f8f8ff !important;
+  border: none !important;
+  border-image: initial;
+}
+
