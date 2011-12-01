@@ -1,0 +1,22 @@
+{
+  "name": "markdowner",
+  "version": "0.0.1",
+  "bin": {
+    "mdview": "./bin/mdview"
+  },
+  "dependencies": {
+    "markdown": ">=0.3.1",
+    "coffee-script": ">=1.1.3",
+    "commander": ">=0.4.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "author": "Russ Posluszny <russjp1985@gmail.com>",
+  "description": "A markdown to HTML viewer",
+  "repository": {
+    "url": ""
+  },
+  "main": "./index.js"
+}
