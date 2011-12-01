@@ -1,6 +1,6 @@
 {
   "name": "markdowner",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "bin": {
     "mdview": "./bin/mdview"
   },
@@ -16,7 +16,7 @@
   "author": "Russ Posluszny <russjp1985@gmail.com>",
   "description": "A markdown to HTML viewer",
   "repository": {
-    "url": ""
+    "url": "https://github.com/russjp1985/markdowner"
   },
   "main": "./index.js"
 }
